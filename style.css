@@ -1,0 +1,214 @@
+html {
+    scroll-behavior: smooth;
+    max-width: 100%;
+}
+body{
+    font-family: Poppins;
+}
+.icon-hover{
+    display: inline;
+    color: #fff;
+    transition: all .3s;
+}
+#main-image {
+    width: 100%;
+    height: auto;
+}
+.thumb {
+    cursor: pointer;
+    padding:0px 12px;
+    transition: transform 0.3s ease;
+}
+.thumb:hover {
+    transform: scale(1.05);
+}
+.price {
+    font-size: 1.5em;
+    position: relative;
+}
+.old-price {
+    position: absolute;
+}
+.payment-options {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h2{
+    font-weight: 300 !important;
+    font-size: 48px;
+    color: #3F3631;
+    line-height: 82px ;
+}
+.subtitle{
+font-size: 24px;
+font-weight: 400;
+line-height: 36px;
+color:  #3F3631;
+}
+.title-card{
+font-size: 24px;
+font-weight: 700;
+line-height: 36px;
+}
+.main-title{
+font-size: 36px;
+font-weight: 700 !important;
+line-height: 54px;
+color: #3F3631;
+}
+.card1{
+    border: 2px solid #2D5ECE !important;
+}
+.card2{
+    border: 2px solid transparent ;
+}
+.description{
+font-weight: 300;
+font-size: 16px;
+line-height: 26px;
+}
+.description span{
+font-weight: 600;
+}
+.list p{
+font-size: 25px;
+line-height: 45px;
+}
+.gradient-text1 {
+    background: linear-gradient(90deg, #2E034B 0%, #002182 50%, #2E034B 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+    font-weight: 700;
+}
+.gradient-text2 {
+    background: linear-gradient(90deg, #FF225E 0%, #9D2AC6 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+    font-weight: 700;
+}
+.gradient-text3 {
+    background: linear-gradient(90deg, #8BF2B5 0%, #35C8EB 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+    font-weight: 700;
+}
+.gradient-text4 {
+    background: linear-gradient(90deg, #E280DA 0%, #6694EF 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+    font-weight: 700;
+}
+.gradient-text5 {
+    background: linear-gradient(90deg, #A34D9F 0%, #275FD0 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+    font-weight: 700;
+}
+.items p{
+font-size: 30px;
+font-weight: 300;
+line-height: 45px;
+color: #3F3631;
+}
+/* FAQ*/
+.drop-down {
+    font-size: 14px;
+ }
+ .accordion {
+    color:black;
+    font-weight: 500;
+    font-size: 20px;
+    cursor: pointer;
+    padding-bottom: 1rem;
+    width: 100%;
+    position: relative;
+    border: none;
+    border-bottom: none;
+    text-align: left;
+    outline: none;
+    transition: 0.1s;
+ }
+ .active,
+ .accordion:hover {
+    background-color: transparent;
+ }
+ .accordion:after {
+    content: '\02795';
+     color: black;
+    float: right;
+ }
+ .active:after {
+    content: "\2212";
+    color: black;
+    font-size: 25px;
+    float: right;
+ }
+ 
+ .panel {
+    max-height: 0;
+    overflow: hidden;
+    color: gray;
+    transition: all 0.2s ease-out;
+    border: none;
+    box-shadow: none;
+ }
+ .items-footer{
+    gap: 20rem;
+ }
+
+@media (max-width: 500px) {
+    .navbar-brand{
+        width: 113% !important;
+    }
+    .nav-img{
+        width: 114px;
+    }
+.header-text{
+    font-size: 0.4rem !important;
+    padding: 2px 0;
+}
+.header-image {
+   max-width: 150%;
+    margin-left: -10%; 
+  }
+.col{
+    flex-wrap: wrap !important;
+}
+    .thumb {
+        width: 85px !important;
+        height: 60px !important;
+    }
+    .payment-options img {
+   width: 45px !important;
+    }
+    .box-style {
+        flex-direction: column;
+    }
+    .content p {
+        text-align: center !important;
+    }
+    .box-style .content {
+        margin-top: 10px;
+    }
+    .items p{
+        font-size: 20px;
+       text-align: left;
+        }
+        .items-footer{
+            gap: 3rem !important;
+         }
+         .footer-img{
+            bottom: -5% !important;
+         }
+}
